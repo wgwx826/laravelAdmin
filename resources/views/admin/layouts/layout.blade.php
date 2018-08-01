@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+    <p>侧边栏</p>
+    @show
+    <div>
+        @yield('content')
+    </div>
+</body>
+</html>

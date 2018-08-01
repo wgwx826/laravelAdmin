@@ -3,11 +3,15 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\Admin\AdminBaseController;
 
-class IndexController extends Controller
+class IndexController extends AdminBaseController
 {
     public function index(){
-    	echo 'admin/index';
+    	return view('admin.index.index');
+    }
+
+    public function main(){
+        return view('admin.index.main');
     }
 }
