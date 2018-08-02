@@ -12,3 +12,7 @@
 */
 
 Route::get('/','Home\IndexController@index');
+
+Route::any('dynamic','Home\IndexController@dynamic');
+Route::any('about','Home\IndexController@about');
+Route::any('contact','Home\IndexController@contact');

@@ -35,15 +35,15 @@
             </section>
             <nav class="tm-main-nav">
                 <ul class="tm-main-nav-ul">
-                    <li class="tm-nav-item"><a href="index.html" class="tm-nav-item-link tm-button active">主页</a>
+                    <li class="tm-nav-item"><a href="{{url('')}}" class="tm-nav-item-link tm-button active">主页</a>
                     </li>
-                    <li class="tm-nav-item"><a href="timeline.html" class="tm-nav-item-link tm-button">动态</a>
+                    <li class="tm-nav-item"><a href="{{url('dynamic')}}" class="tm-nav-item-link tm-button">动态</a>
                     </li>
                     <li class="tm-nav-item"><a href="http://www.cnblogs.com/yimingwang/" class="tm-nav-item-link tm-button" target="_blank">博客</a>
                     </li>
-                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-item-link tm-button">关于我</a>
+                    <li class="tm-nav-item"><a href="{{url('about')}}" class="tm-nav-item-link tm-button">关于我</a>
                     </li>
-                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-item-link tm-button">联系我</a>
+                    <li class="tm-nav-item"><a href="{{url('contact')}}" class="tm-nav-item-link tm-button">联系我</a>
                     </li>
                 </ul>
             </nav>

@@ -20,7 +20,7 @@ class IndexController extends HomeBaseController
     }
 
     public function contact(){
-        return view('home.index.about');
+        return view('home.index.contact');
     }
 
 }
