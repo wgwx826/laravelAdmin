@@ -22,5 +22,5 @@ Route::any('test','Test\OrderController@makeOrder');
 Route::any('test_r','Test\OrderController@mostRequest');
 
 Route::get('zkx', function () {
-    return 'Hello zkx xiao jie jie';
+    return 'Hello zkx xiao jie jie a';
 });
