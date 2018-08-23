@@ -5,7 +5,8 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
+ini_set('display_errors','on');
+error_reporting(E_ALL);
 define('LARAVEL_START', microtime(true));
 
 /*

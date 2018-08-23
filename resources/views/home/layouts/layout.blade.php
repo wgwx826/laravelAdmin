@@ -8,12 +8,12 @@
 
     <!-- load stylesheets -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400"> <!-- Google web font "Open Sans", https://fonts.google.com/ -->
-    <link rel="stylesheet" href="{{ asset('home/font-awesome-4.7.0/css/font-awesome.min.css') }}">         <!-- Font Awesome, http://fontawesome.io/ -->
-    <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">                               <!-- Bootstrap styles, https://getbootstrap.com/ -->
-    <link rel="stylesheet" href="{{ asset('home/css/tooplate-style.css') }}">
-    <script src="{{ asset('home/js/jquery-1.11.3.min.js')}}"></script>             <!-- jQuery (https://jquery.com/download/) -->
-    <script src="{{ asset('home/js/imagesloaded.pkgd.min.js')}}"></script> <!-- https://masonry.desandro.com/ -->
-    <script src="{{ asset('home/js/masonry.pkgd.min.js')}}"></script> <!-- https://masonry.desandro.com/ -->
+    <link rel="stylesheet" href="{{ asset('static/home/font-awesome-4.7.0/css/font-awesome.min.css') }}">         <!-- Font Awesome, http://fontawesome.io/ -->
+    <link rel="stylesheet" href="{{ asset('static/home/css/bootstrap.min.css') }}">                               <!-- Bootstrap styles, https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="{{ asset('static/home/css/tooplate-style.css') }}">
+    <script src="{{ asset('static/home/js/jquery-1.11.3.min.js')}}"></script>             <!-- jQuery (https://jquery.com/download/) -->
+    <script src="{{ asset('static/home/js/imagesloaded.pkgd.min.js')}}"></script> <!-- https://masonry.desandro.com/ -->
+    <script src="{{ asset('static/home/js/masonry.pkgd.min.js')}}"></script> <!-- https://masonry.desandro.com/ -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
